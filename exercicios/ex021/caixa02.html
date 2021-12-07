@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:#8a8888;
+            margin: 5px;
+        }
+        
+        header {
+            background-color: rgb(247, 247, 247);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px 10px;
+        }
+        nav {
+            background-color: rgb(156, 154, 154);
+            padding: 10px;
+            box-shadow: 3px 4px 1px rgba(0, 0, 0, 0.507);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 35px; 
+        }
+        main { 
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+            border-radius: 10px 0px ;
+        }
+        
+        article {
+            background-color:rgb(219, 216, 216) ;
+            padding: 5px;
+            box-shadow: 2px 3px 4px 0px black
+        }
+        article > aside {
+            background-color: rgb(126, 122, 122);
+        }
+        article {
+            background-color: rgb(164, 167, 168);
+            margin: auto;
+            
+        }
+        footer {
+            background-color: black;
+            color:white;
+            text-align: center;
+            padding: 3px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Boowaite.</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h1>Melhore sua vida e seu pensamento.</h1>
+            <p>Tecnologia, Jogos, Cripto ativos.</p>
+        </section>
+        <section id='noticias'>
+            <article>
+                <h2>Noticias sobre o Curso em video</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum minus provident assumenda nobis blanditiis vel sunt ipsam ut? Eos officia corporis placeat, nesciunt minima iste sequi est atque. Error, eos?</p>
+                <aside>
+                    <h2 id="noticias">Notícia</h2>
+                    <p>Artigo feito por Jeferon soares.</p>
+                </aside>
+            </article >
+            <article id="livros">
+                <h2>Proposta de livros.</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat iure ratione nulla beatae voluptatibus numquam nostrum explicabo repellendus dignissimos quaerat maiores ab, vitae recusandae id earum! Nihil voluptatibus repellendus quam.</p>
+
+            </article>
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Jeferson Soares Araújo</p>
+    </footer>
+    
+
+    
+</body>
+</html>

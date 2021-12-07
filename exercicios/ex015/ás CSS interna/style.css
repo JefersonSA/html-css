@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* Regra @charst caso haja problemas com acentuação */
+
+body {
+    background-color: hsl(0, 0%, 100%);
+    color: rgb(25, 39, 230);
+    font-size: 15pt;
+    font-family: Ariel;
+}
+h1 {
+    color: rgb(10, 1, 1);
+}
+h2 {
+    color:rgb(122, 8, 8);
+}
+p {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
